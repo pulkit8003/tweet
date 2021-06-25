@@ -1,0 +1,13 @@
+<h1> Edit Post </h1>  
+<div class="edit">
+  <%= form_with model: @post do |f| %>  
+  <p class="edit_t">Title</p><%= f.text_field :title %><br>
+  <p class="edit_c">Content</p>
+  <%= f.text_area :content,class: "edit_c", size: "60x12" %>
+  <div class="field">
+   <%= f.file_field :images, multiple: true %>
+  </div>
+  <%= f.submit "Post", class: "create" %>
+  <%= link_to "cancel", post_path, class:"cancel" %>
+  <% end %>
+</div>

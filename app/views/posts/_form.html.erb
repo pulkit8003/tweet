@@ -1,0 +1,23 @@
+<div class="new_post">
+  <%= form_with model: @post do |f| %>
+    <% if @post.errors.any? %>
+	  <h2> Required </h2>
+	  <ul>
+		  <% @post.errors.full_messages.each do |message| %>
+			  <li style="line-height: 1;"><%= message %></li>
+		  <% end %>
+	  </ul>
+    <% end %>
+
+  Title<%= f.text_field :title %>
+
+  Content<%= f.text_area :content, size: "60x12" %>
+
+  <div class="field">
+   <%= f.file_field :images, multiple: true %>
+  </div>
+
+  <%= f.submit "Post", class: "create" %>
+
+  <% end %>
+</div>

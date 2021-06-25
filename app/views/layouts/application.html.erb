@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tweet</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag "post.css" %>
+     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap" rel="stylesheet"> 
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <% if user_signed_in? %>
+        <%= link_to "Home", root_path, class: "button_home" %>  
+        <%= link_to "New Post", new_post_path, class: "button_new" %>
+        <%= link_to "Log Out", destroy_user_session_path,method: :delete , class: "button_logout" %>
+    <% else %>
+      <%= link_to "sign up", new_user_registration_path,class: "button_signup" %>
+      <%= link_to "sign in", new_user_session_path,class: "button_login" %>   
+    <% end %><br><br>
+    <hr><br>
+
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+
+    <%= yield %>    
+
+  </body>
+</html>

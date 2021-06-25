@@ -1,0 +1,310 @@
+.main{
+	border-color: black;
+	border : solid;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.index_title{
+	color: red;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.index_title:hover{
+	text-decoration: underline;
+	transition : 0.2s;
+	text-shadow: 0.5px 0.5px #330000
+
+}
+
+.logo{
+	color: white;
+	border:solid;
+	padding: 4px 15px 4px 15px;
+	width: 60px;
+	background-color: #1877f2;
+	text-align: center;
+	font-family: "Lucida Console", Courier, monospace;
+	border-color:#1877f2;
+	border-radius: 5px;
+	font-weight: bold;
+	margin-top: 10px;
+	position: static;
+	text-decoration: none; 
+}
+.logo:hover{
+	background-color:#0d65d9;
+	border-color:#0d65d9;
+	transition : 0.5s;
+	color: #262626;
+	text-shadow: 2px;
+}
+.button{
+	border : 5px;
+	color: white;
+	border:solid;
+	padding: 4px 15px 4px 15px;
+	width: 60px;
+	background-color: #1877f2;
+	text-align: center;
+	font-family: "Lucida Console", Courier, monospace;
+	border-color:#1877f2;
+	border-radius: 5px;
+	font-weight: bold;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+.button:hover{
+	background-color:#0d65d9;
+	border-color:#0d65d9;
+	transition : 0.5s;
+	color: #262626;
+	text-shadow: 2px;
+}
+
+.post{
+	border-color: black;
+	border : solid;
+	text-align: center;
+	border-radius: 5px;
+	padding: 20px 20px;
+	background-color:  #f2f2f2;	
+}
+#content{
+	color: blue;
+	font-family: 'Baloo Tamma 2', cursive;
+	border: solid;
+	border-width: 1px;
+	border-radius: 4px;
+	border-color:  #b3b3b3;
+}
+#title{
+	color: red;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+
+.button_login{
+	border : 5px;
+	color: white;
+	border:solid;
+	padding: 4px 15px 4px 15px;
+	width: 60px;
+	background-color: #1877f2;
+	text-align: center;
+	font-family: "Lucida Console", Courier, monospace;
+	border-color:#1877f2;
+	border-radius: 5px;
+	font-weight: bold;
+	margin-top: 10px;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+
+}
+.button_login:hover{
+	background-color:#0d65d9;
+	border-color:#0d65d9;
+	transition : 0.5s;
+	color: #262626;
+	text-shadow: 2px;	
+}
+
+
+.button_logout{
+  border : 5px;
+	color: white;
+	border:solid;
+	padding: 4px 15px 4px 15px;
+	width: 60px;
+	background-color: #1877f2;
+	text-align: center;
+	font-family: "Lucida Console", Courier, monospace;
+	border-color:#1877f2;
+	border-radius: 5px;
+	font-weight: bold;
+	margin-top: 10px;
+	text-decoration: none;
+	margin-left: 940px;
+	position: relative;
+	top: 10px;
+
+}
+.button_logout:hover{
+	background-color:#0d65d9;
+	border-color:#0d65d9;
+	transition : 0.5s;
+	color: #262626;
+	text-shadow: 2px;
+
+}
+
+
+.button_signup{
+	border : 5px;
+	color: white;
+	border:solid;
+	padding: 4px 15px 4px 15px;
+	width: 60px;
+	background-color: #1877f2;
+	text-align: center;
+	font-family: "Lucida Console", Courier, monospace;
+	border-color:#1877f2;
+	border-radius: 5px;
+	font-weight: bold;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+
+}
+.button_signup:hover{
+	background-color:#0d65d9;
+	border-color:#0d65d9;
+	transition : 0.5s;
+	color: #262626;
+	text-shadow: 2px;
+
+}
+
+
+.button_new{
+	border : 5px;
+	color: white;
+	border:solid;
+	padding: 4px 15px 4px 15px;
+	width: 60px;
+	background-color: #1877f2;
+	text-align: center;
+	font-family: "Lucida Console", Courier, monospace;
+	border-color:#1877f2;
+	border-radius: 5px;
+	font-weight: bold;
+	margin-top: 10px;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+
+
+}
+.button_new:hover{
+	background-color:#0d65d9;
+	border-color:#0d65d9;
+	transition : 0.5s;
+	color: #262626;
+	text-shadow: 2px;
+
+}
+
+.button_home{
+	border : 5px;
+	color: white;
+	border:solid;
+	padding: 4px 15px 4px 15px;
+	width: 60px;
+	background-color: #1877f2;
+	text-align: center;
+	font-family: "Lucida Console", Courier, monospace;
+	border-color:#1877f2;
+	border-radius: 5px;
+	font-weight: bold;
+	margin-top: 10px;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+
+
+}
+.button_home:hover{
+	background-color:#0d65d9;
+	border-color:#0d65d9;
+	transition : 0.5s;
+	color: #262626;
+	text-shadow: 2px;
+
+}
+
+.button_show{
+	border : 5px;
+	color: white;
+	border:solid;
+	padding: 4px 15px 4px 15px;
+	width: 60px;
+	background-color: #1877f2;
+	text-align: center;
+	font-family: "Lucida Console", Courier, monospace;
+	border-color:#1877f2;
+	border-radius: 5px;
+	font-weight: bold;
+	margin-top: 10px;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+}
+
+.button_show:hover{
+	background-color:#0d65d9;
+	border-color:#0d65d9;
+	transition : 0.5s;
+	color: #262626;
+	text-shadow: 2px;
+}
+.create{
+	border : 5px;
+	color: white;
+	border:solid;
+	padding: 4px 4px 4px 4px;
+	width: 90px;
+	background-color: #1877f2;
+	text-align: center;
+	font-family: "Lucida Console", Courier, monospace;
+	border-color:#1877f2;
+	border-radius: 5px;
+	font-weight: bold;
+	text-decoration: none;
+	position: relative;
+	top: 0px;
+	line-height: 15px;
+	position: relative;
+	top: 3px;
+
+}
+
+.create:hover{
+	background-color:#0d65d9;
+	border-color:#0d65d9;
+	transition : 0.5s;
+	color: #262626;
+	text-shadow: 2px;
+}
+.new_post{
+	border:solid;
+	text-align: left;
+	padding-left: 10px;
+	padding-bottom: 5px;
+
+}
+.edit{
+	border:solid;
+	text-align: left;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+
+.cancel{
+	border : 5px;
+	color: white;
+	border:solid;
+	padding: 2px 10px 2px 10px;
+	width: 60px;
+	line-height: 10px;
+	background-color: #1877f2;
+	text-align: center;
+	font-family: "Lucida Console", Courier, monospace;
+	border-color:#1877f2;
+	border-radius: 5px;
+	font-weight: bold;
+	position: relative;
+	top: 4px;
+	text-decoration: none;
+}

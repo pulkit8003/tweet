@@ -1,0 +1,13 @@
+<div class="post">
+  <h2 id="title"><%= @post.title %></h2>
+  <p id="content"><%= @post.content %></p>
+  <% (0...@post.images.count).each do |image| %>
+    <%= image_tag(@post.thumbnail(image)) %>
+  <% end %>
+  <h4><%= @post.comments.count %> Comments</h4> 
+  <%= render @post.comments %>
+  <h3>Reply to Post</h3>
+  <%= render "comments/form" %> 
+  <%= link_to "Edit", edit_post_path(@post),class: "button_show"  %>
+  <%= link_to "Delete", post_path(@post), method: :delete, data: { confirm:"Are You Sure?"},class: "button_show"  %>
+</div>

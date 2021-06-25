@@ -1,0 +1,4 @@
+<%= form_for([@post, @post.comments.create]) do |f| %>
+  <%= f.text_area :comment, size: "60x12" %><br>
+  <%= f.submit  %>
+<% end %>
