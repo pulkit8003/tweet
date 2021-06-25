@@ -52,5 +52,8 @@ class PostsController < ApplicationController
 	def post_params
 		params.require(:post).permit(:title, :content, images: [])
 	end
+	
+	def test_feature
+	end
 
 end
