@@ -53,4 +53,7 @@ class PostsController < ApplicationController
 		params.require(:post).permit(:title, :content, images: [])
 	end
 
+	def latest_feature 
+	end		
+
 end
